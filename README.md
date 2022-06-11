@@ -4,6 +4,9 @@
 This project was developed mainly in Java with Maven using on Groovy with Spock framework for the automated tests layer.
 The code is 100% covered with automated tests. This coverage can be measured with the coverage report integration Jacoco report.
 
+### Build the project
+Use "mvn clean install" to build the project and let maven download all the needed libs to your computer
+
 ### How to run the project?
 1. You can run the project by running the main class located on "src.main.java.com.challenge.island.monkey" package
 
