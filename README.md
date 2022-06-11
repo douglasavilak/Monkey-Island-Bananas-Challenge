@@ -66,3 +66,4 @@ With that we have a SC = O(M), where M is the number of columns
 Time = O(N + M + 1) = O(N + M) = O(N) Linear Time Complexity
 Space = O(N + M + 1) = O(N + M) = O(N) Linear Space Complexity
 ```
+![image](https://user-images.githubusercontent.com/4285378/173197533-1f79c32b-5ae5-42c2-9a13-5becf1ed9e22.png)
