@@ -21,13 +21,14 @@ Use "mvn clean install" to build the project and let maven download all the need
 Following the Big-O idea, in order to calculate the Big-O complexity, during the analysis of the solution algorithm, I'll be always looking for the worst scenario, in other words, I'll be always looking for the most time and space consuming scenario.
 
 #### 1. Introduction
-As the first thing to do to calculate the algorithm big-o TC (Time Complexity) and SC (Space Complexity) I simplified the whole code to it's logical iteration loops and significant space consuming attributions
+As the first thing to do to calculate the algorithm big-o TC (Time Complexity) and SC (Space Complexity) I simplified the whole code to it's logical iteration loops and significant space consuming attributions.
+
+```
 // 2. First column rows iteration
 for (int row = 0; row <= N; row++) {
     int[] possibleNextFields = N
 }
 
-```
 // 3. Next columns iteration
 for (int col = 1; col < M; col++) {
 
