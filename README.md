@@ -15,10 +15,10 @@ The code is 100% covered with automated tests. This coverage can be measured wit
 
 ## Talking about algorithm performance
 ### Calculating the Big-O complexity
-Following the Big-O idea, in order to calculate the Big-O complexity, during the analysis of the solution algorithm, I?ll be always looking for the worst scenario, in other words, I?ll be always looking for the most time and space consuming scenario.
+Following the Big-O idea, in order to calculate the Big-O complexity, during the analysis of the solution algorithm, I'll be always looking for the worst scenario, in other words, I'll be always looking for the most time and space consuming scenario.
 
 #### 1. Introduction
-As the first thing to do to calculate the algorithm big-o TC (Time Complexity) and SC (Space Complexity) I simplified the whole code to it?s logical iteration loops and significant space consuming attributions
+As the first thing to do to calculate the algorithm big-o TC (Time Complexity) and SC (Space Complexity) I simplified the whole code to it's logical iteration loops and significant space consuming attributions
 // 2. First column rows iteration
 for (int row = 0; row <= N; row++) {
     int[] possibleNextFields = N
@@ -35,7 +35,7 @@ for (int col = 1; col < M; col++) {
         // No significant time / space complexity operation
     }
 
-    // 5. List of monkey?s visited places
+    // 5. List of monkey's visited places
     List<Field> visitedPlaces = M
 }
 ```
@@ -57,8 +57,8 @@ With that in hands we now have this new for loop iterating on a 3 times loop. Th
 With that we have a TC = O(1).
 Inside of this loop we do not have any significant operation for Time Complexity neither Space Complexity. 
 
-#### 5. List of monkey?s visited places
-To complete the algorithm, we have a list of the monkey visited places, on that list we have all the real fields that the monkey visited on his journey through the island. So, for that list we will have a size equivalent to the island number of columns, since the monkey will visit 1 field by each column on the islandMap, that means that the size of the monkey?s visited places list increases according to the size of the islandMap columns.
+#### 5. List of monkey's visited places
+To complete the algorithm, we have a list of the monkey visited places, on that list we have all the real fields that the monkey visited on his journey through the island. So, for that list we will have a size equivalent to the island number of columns, since the monkey will visit 1 field by each column on the islandMap, that means that the size of the monkey's visited places list increases according to the size of the islandMap columns.
 With that we have a SC = O(M), where M is the number of columns
 
 #### Result
